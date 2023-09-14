@@ -1,0 +1,512 @@
+#mona {
+    position: absolute; top: 50px; left: 200px;
+    width: 100px;
+}
+#tuea {
+    position: absolute; top: 75px; left: 200px;
+    width: 100px;
+}
+#weda {
+    position: absolute; top: 100px; left: 200px;
+    width: 100px;
+}
+#thua {
+    position: absolute; top: 125px; left: 200px;
+    width: 100px;
+}
+#fria {
+    position: absolute; top: 150px; left: 200px;
+    width: 100px;
+}
+#monb {
+    position: absolute; top: 200px; left: 200px;
+    width: 100px;
+}
+#tueb {
+    position: absolute; top: 225px; left: 200px;
+    width: 100px;
+}
+#wedb {
+    position: absolute; top: 250px; left: 200px;
+    width: 100px;
+}
+#thub {
+    position: absolute; top: 275px; left: 200px;
+    width: 100px;
+}
+#frib {
+    position: absolute; top: 300px; left: 200px;
+    width: 100px;
+}
+
+.calendar {
+    width: 550px;
+    height: 300px;
+    outline: 2px solid black;
+    border-radius: 50px;
+    position: absolute; top: 350px; left: 17.5%;
+}
+.line1 {
+    width: 550px;
+    height: 2px;
+    background-color: black;
+    position: absolute; top: 400px; left: 17.5%;
+}
+#box1 {
+   width: 75px;
+   height: 150px;
+   border-radius: 15px;
+   position: absolute; left: 180px; top: 450px;
+   outline: 3px solid black;
+   background-color: black;
+}
+#box2 {
+    width: 75px;
+   height: 150px;
+   border-radius: 15px;
+   position: absolute; left: 280px; top: 450px;
+   outline: 3px solid black;
+}
+#box1:hover {
+   box-shadow: 0 0 5px 3px;
+   cursor: pointer;
+}
+#box2:hover {
+    box-shadow: 0 0 5px 3px;
+    cursor: pointer;
+ }
+ #box3:hover {
+    box-shadow: 0 0 5px 3px;
+    cursor: pointer;
+ }
+ #box4:hover {
+    box-shadow: 0 0 5px 3px;
+    cursor: pointer;
+ }
+ #box5:hover {
+    box-shadow: 0 0 5px 3px;
+    cursor: pointer;
+ }
+#box3 {
+    width: 75px;
+   height: 150px;
+   border-radius: 15px;
+   position: absolute; left: 380px; top: 450px;
+   outline: 3px solid black;
+   z-index: 2;
+}
+#box4 {
+    width: 75px;
+   height: 150px;
+   border-radius: 15px;
+   position: absolute; left: 480px; top: 450px;
+   outline: 3px solid black;
+}
+#box5 {
+    width: 75px;
+   height: 150px;
+   border-radius: 15px;
+   position: absolute; left: 580px; top: 450px;
+   outline: 3px solid black;
+   background: white;
+}
+.line2 {
+   width: 550px;
+   height: 50px;
+   background-color: red;
+   position: absolute; left: 17.5%; top: 350px;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+}
+#text1 {
+    position: absolute; top: 490px; left: 185px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#text2 {
+    position: absolute; top: 490px; left: 285px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#text3 {
+    position: absolute; top: 490px; left: 385px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#text4 {
+    position: absolute; top: 490px; left: 485px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#text5 {
+    position: absolute; top: 490px; left: 585px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#box1:checked {
+   width: 190px;
+   height: 250px;
+   position: absolute; left: 330px; top: 50px;
+   border-radius: 25px;
+   animation: Morpha 1000ms;
+   z-index: 2;
+ }
+ #box2:checked {
+    width: 190px;
+    height: 250px;
+    position: absolute; left: 330px; top: 50px;
+    border-radius: 25px;
+    animation: Morphb 1000ms;
+    z-index: 2;
+  }
+  #box3:checked {
+    width: 190px;
+    height: 250px;
+    position: absolute; left: 330px; top: 50px;
+    border-radius: 25px;
+    animation: Morphc 1000ms;
+    z-index: 2;
+  }
+  #box4:checked {
+    width: 190px;
+    height: 250px;
+    position: absolute; left: 330px; top: 50px;
+    border-radius: 25px;
+    animation: Morphd 1000ms;
+    z-index: 2;
+  }
+  #box5:checked {
+    width: 190px;
+    height: 250px;
+    position: absolute; left: 330px; top: 50px;
+    border-radius: 25px;
+    background-color: white;
+    animation: Morphe 1000ms;
+    z-index: 2;
+  }
+  #box1:not(:checked) {
+   width: 75px;
+   height: 150px;
+   position: absolute; left: 180px; top: 450px;
+   border-radius: 15px;
+   animation: Morphaa 1000ms;
+   opacity: 0.1;
+ }
+ #box2:not(:checked) {
+    width: 75px;
+    height: 150px;
+    position: absolute; left: 280px; top: 450px;
+    border-radius: 15px;
+    animation: Morphaa 1000ms;
+    opacity: 0.1;
+  }
+  #box3:not(:checked) {
+    width: 75px;
+    height: 150px;
+    position: absolute; left: 380px; top: 450px;
+    border-radius: 15px;
+    animation: Morphaa 1000ms;
+    opacity: 0.1;
+  }
+  #box4:not(:checked) {
+    width: 75px;
+    height: 150px;
+    position: absolute; left: 480px; top: 450px;
+    border-radius: 15px;
+    animation: Morphaa 1000ms;
+    opacity: 0.1;
+  }
+  #box5:not(:checked) {
+    width: 75px;
+    height: 150px;
+    position: absolute; left: 580px; top: 450px;
+    border-radius: 15px;
+    background: white;
+    animation: Morphaa 1000ms;
+    opacity: 0.1;
+  }
+ 
+
+
+  @keyframes Morpha {
+    0% {
+        width: 75px;
+        height: 150px;
+        position: absolute; left: 180px; top: 450px;
+        opacity: 0.1;
+    }
+    100% {  
+        opacity: 1;   
+    }
+  }
+  @keyframes Morphb {
+    0% {
+        width: 75px;
+        height: 150px;
+        position: absolute; left: 280px; top: 450px;
+        opacity: 0.1;
+    }
+    100% { 
+        opacity: 1;    
+    }
+  }
+  @keyframes Morphc {
+    0% {
+        width: 75px;
+        height: 150px;
+        position: absolute; left: 380px; top: 450px;
+        opacity: 0.1;
+    }
+    100% {     
+        opacity: 1;
+    }
+  }
+  @keyframes Morphd {
+    0% {
+        width: 75px;
+        height: 150px;
+        position: absolute; left: 480px; top: 450px;
+        opacity: 0.1;
+    }
+    100% {     
+        opacity: 1;
+    }
+  }
+  @keyframes Morphe {
+    0% {
+        width: 75px;
+        height: 150px;
+        position: absolute; left: 580px; top: 450px;
+        opacity: 0.1;
+    }
+    100% {   
+        opacity: 1;  
+    }
+  }
+  @keyframes Morphaa {
+    0% {
+        width: 190px;
+        height: 250px;
+        position: absolute; left: 330px; top: 50px;
+        border-radius: 25px;
+    }
+    100% {     
+        opacity: 0.1;
+    }}
+
+    @keyframes Morphza {
+      0% {
+          width: 75px;
+          height: 150px;
+          position: absolute; left: 381px; top: 453px;
+          border-radius: 15px;
+      }
+      100% {    
+        width: 190px;
+        height: 250px;
+        position: absolute; left: 460px; top: 55px;
+        outline: 3px solid black;
+        border-radius: 25px;
+      }  
+  }
+  @keyframes Morphzaa {
+    0% {
+        width: 190px;
+        height: 250px;
+        outline: 3px solid black;
+        position: absolute; left: 460px; top: 55px;
+        border-radius: 25px;
+    }
+    100% {    
+      width: 75px;
+      height: 150px;
+      outline: 3px solid lightgray;
+      position: absolute; left: 381px; top: 453px;
+      border-radius: 15px;
+    }  
+}
+@keyframes Textapp {
+  0% {
+      color: white;
+  }
+  100% {    
+       color: black;
+  }}
+  @keyframes Textbpp {
+    0% {
+        color: black;
+    }
+    100% {    
+         color: white;
+    }}
+    @keyframes Textrtt {
+      0% {
+          background-color: white;
+      }
+      100% {    
+           background-color: red;
+      }}
+      @keyframes Textrff {
+        0% {
+            background-color: red;
+        }
+        100% {    
+             background-color: white;
+        }}
+        @keyframes boxt {
+          0% {
+              outline: 2px solid white;
+          }
+          100% {    
+               outline: 2px solid gray;
+          }}
+          @keyframes boxf {
+            0% {
+                outline: 2px solid gray;
+            }
+            100% {    
+                 outline: 2px solid white;
+            }}
+
+  #textafter1{
+    position: absolute; top: 65px; left: 350px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 2;
+  }
+  #textafter2{
+    position: absolute; top: 130px; left: 350px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 2;
+  }
+  #textafter3{
+    position: absolute; top: 210px; left: 350px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    z-index: 2;
+  }
+  #white{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position: absolute; left: 307.5px; top: 50px;
+    border-radius: 25px;
+    z-index: 1;
+  }
+#result {
+  font-size: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute; left:300px; top: 317px;
+  font-weight: 150;
+  z-index: 3;
+}
+#periods{
+  font-size: 20px;
+  font-weight: 150;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: grey;
+  position: absolute; left: 220px; top: 400px;
+  letter-spacing: 42px;
+}
+#boxs11{
+  width: 152.5px;
+  height: 30px;
+  outline: 0px solid gray;
+  border-radius: 7.5px;
+  position: absolute; left: 480px; top: 75px;
+  z-index: 2;
+}
+#boxs12{
+  width: 152.5px;
+  height: 30px;
+  outline: 0px solid gray;
+  border-radius: 7.5px;
+  position: absolute; left: 480px; top: 120px;
+  z-index: 2;
+}
+#boxs13{
+  width: 152.5px;
+  height: 30px;
+  outline: 0px solid gray;
+  border-radius: 7.5px;
+  position: absolute; left: 480px; top: 165px;
+  z-index: 2;
+
+}
+#boxs14{
+  width: 152.5px;
+  height: 30px;
+  outline: 0px solid gray;
+  border-radius: 7.5px;
+  position: absolute; left: 480px; top: 210px;
+  z-index: 2;
+
+}
+#boxs15{
+  width: 152.5px;
+  height: 30px;
+  outline: 0px solid gray;
+  border-radius: 7.5px;
+  position: absolute; left: 480px; top: 255px;
+  z-index: 2;
+}
+#texts11{
+  position: absolute; left: 604px; top: 77px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2;
+}
+#texts12{
+  position: absolute; left: 604px; top: 122px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2;
+}
+#texts13{
+  position: absolute; left: 604px; top: 167px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2;
+}
+#texts14{
+  position: absolute; left: 604px; top: 212px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2;
+}
+#texts15{
+  position: absolute; left: 604px; top: 257px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2;
+  
+}
+#box3s {
+  width: 75px;
+  height: 150px;
+  outline: 3px solid lightgrey;
+  position: absolute; left: 381px; top: 453px;
+  border-radius: 15px;
+  z-index: 1;
+  animation: Morphza 1000ms;
+}
+#weekA {
+  position: absolute; left: 500px; top: 320px;
+  width: 50px;
+}
+#weekB {
+  position: absolute; left: 555px; top: 320px;
+  width: 50px;
+}
